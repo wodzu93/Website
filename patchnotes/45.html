@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Version 45</title>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="patchnotes.css">
+</head>
+<body>
+<table id="container"><tr>
+	<td id="main">
+		<div id="intro">
+			<h1>Version 45</h1>
+		</div>
+			
+		<h2>Buildings</h2>
+			
+		<div id="cybranengineerstation" class="card">
+			<h3><img src="images/CybranT2Hive.png"> Cybran Stage 1 Hive</h3>
+			<ul>
+			<li>Upgrade to TheSwarm
+			</ul>
+		</div>
+		
+		<div id="aeonshieldt2" class="card">
+			<h3><img src="images/AeonT2Shield.png"> Aeon T2 Shield</h3>
+			Slight Rebalance to the sheild to make it more duruable like all other t2 shields and have an upgrade.	
+			<ul>
+			<li>Structure Health: <strike>150</strike> → 220
+			<li>Upgradable: <strike>Faslse</strike> → True
+			<li>DeathAnimationSpeed: <strike>0.5</strike> → 1.5
+			<li>BuildRate: <strike>13.66</strike> → 14
+			</ul>
+		</div>
+
+		<div id="aeonshieldt3" class="card">
+			<h3><img src="images/AeonT3Shield.png"> Aeon T3 Shield</h3>
+			Slight Rebalance to the sheild to make it more duruable like all other t2 shields and have an upgrade.	
+			<ul>
+			<li>Structure Health: <strike>300</strike> → 330
+			</ul>
+		</div>
+		
+		<div id="seraphimsonart2" class="card">
+			<h3><img src="images/SeraphimT2Sonar.png"> Seraphim T2 Sonar</h3>
+			Rebalance based version to fit with t3 Sonar.
+			<ul>
+			<li>Removed LOWSELECTPRIO Category
+			<li>Health: 1000 → 1375
+			<li>EconomyThreatLevel: 4 → 3
+			<li>MassCost: 400 → 150
+			<li>EnergyCost: 6000 → 3700
+			<li>Buildtime :600 → 620
+			<li>RULEUCC_Dive: True → False
+			<li>RULEUCC_Guard: True → False
+			<li>RULEUCC_Move: True → False
+			<li>RULEUCC_Patrol: True → False
+			<li>RULEUCC_RetaliteToggle: True → False
+			<li>RULEUCC_Stop: True → False
+			<li>SelectionPriority: Null → 5
+			<li>SonarRadius: 350 → 250
+			<li>Wreckage_LAYER_Sub: True → False
+			<li>Upgradable: False → True
+			<li>All Lines linked to the Submersable parts have been removed
+			</ul>
+		</div>
+
+		<div id="seraphimsonart3" class="card">
+			<h3><img src="images/SeraphimT2Sonar.png"> Seraphim T3 Sonar</h3>
+			Rebalance based version to fit with t3 Sonar.
+			<ul>
+			<li> Added 'SUBMERSIBLE' & 'CQUEMOVE' in Category
+			<li> >HP: 2100
+			<li> EconomyThreatLevel: 4
+			<li> Submersable: True
+			<li> MassCost: 1.1K
+			<li> EnergyCost: 10.1K
+			<li> BuildTime: 750
+			<li> Added RULEUCC_Dive and is set to True
+			<li> RULEUCC_Guard: False → True
+			<li> RULEUCC_Move: False → True
+			<li> RULEUCC_Patrol: False → True
+			<li> RULEUCC_RetaliteToggle: False → True
+			<li> RULEUCC_Stop: False → True
+			<li> SelectionPriority: 6
+			<li> SonarRadius: 450
+			<li> VisionRadius: 32
+			<li> WaterVisionRadius: 24
+			<li> BuildOnLayer_Land: True → False
+			<li> BuildOnLayer_Sub: False → True
+			<li> BuildOnLayer_Water: False → True
+			<li> MaxAcceleration: 3
+			<li> MaxBrake: 3
+			<li> MaxSpeed: 3
+			<li> MotionType: 'RULEUMT_SurfacingSub'
+			<li> TurnRate: 25
+			<li> TurnRadius: 5
+			<li> SubSpeedMultiplier: 0.5
+			<li> Wreckage_LAYER_Sub: True
+			</ul>
+		</div>
+		
+		<div id="uefengineerstation" class="card">
+			<h3><img src="images/UEFT3Kennel.png"> UEF T3 Kennel</h3>
+			Slight Rebalance to the sheild to make it more duruable like all other t2 shields and have an upgrade.	
+			<ul>		
+			<li> Added 'BUILTBYTIER3ENGINEER' To Categorys
+			<li> Added 'BUILTBYTIER3COMMANDER' To Categorys
+			<li> MassCost: 500 → 1100
+			<li> EnergyCost: 2500 → 5400
+			<li> DifferentialUpgradeCostCalculation: False → True
+			</ul>
+		</div>
+
+		<div id="cybranengineerstationt3" class="card">
+			<h3><img src="images/TheSwarm.png"> Cybran T3 The Swarm</h3>
+			Slight Rebalance to the sheild to make it more duruable like all other t2 shields and have an upgrade.	
+			<ul>
+			<li> EnergyCost: 6416.66 → 6417
+			<li> MaxBuildDistance: 25 → 30
+			<li> VisionRadius: 15 → 25
+			</ul>
+		</div>
+
+		<div id="aeonexp" class="card">
+			<h3><img src="images/AeonExp.png"> Aeon Paragon</h3>
+			Slight Rebalance to the sheild to make it more duruable like all other t2 shields and have an upgrade.	
+			<ul>
+			<li> MassCost: 250.2K → 350K
+			<li> EnergyCost: 7.506M → 7.6M
+			<li> BuildTime: 325000 → 350000
+			<li> MaxEnergy: 1M → 750K
+			<li> MaxMass: 10K → 5K
+			<li> FootprintSize: 7 → 5
+			</ul>
+		</div>
+		<a class="back-button" href="../phantomBalance.html">Back</a>
+		<p style="height: 1000px">
+	</td>
+	
+	<td id="sidebar">
+		<div id="icongrid">
+		<h2><a href="#container">Contents</a></h2>
+		
+		<p>Buildings<br>
+		<a href="#cybranengineerstation"><img src="images/CybranT2Hive.png"></a>
+		<a href="#aeonshieldt2"><img src="images/AeonT2Shield.png"></a>
+		<a href="#aeonshieldt3"><img src="images/AeonT3Shield.png"></a>
+		<a href="#seraphimsonart2"><img src="images/SeraphimT2Sonar.png"></a>
+		<a href="#seraphimsonart3"><img src="images/SeraphimT2Sonar.png"></a>
+		<a href="#uefengineerstation"><img src="images/UEFT3Kennel.png"></a>
+		<a href="#cybranengineerstationt3"><img src="images/TheSwarm.png"></a>
+		<a href="#aeonexp"><img src="images/AeonExp.png"></a>
+		</div>
+	</td>
+</tr>
+</table>
+</body>
+</html>
