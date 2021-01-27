@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Total Mayhem Lite</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+		<link rel="stylesheet" href="../rowey-global.css">
+		<link rel="stylesheet" href="../rowey-doc.css">
+    </head>
+
+    <body>
+		<div class="doc__bg"></div>
+		<nav class="header">
+			<h1 class="logo">Total Mayhem<span class="logo__thin"> Lite</span></h1>
+			<ul class="menu">
+				<div class="menu__item toggle"><span></span></div>
+				<li class="menu__item"><a href="../home.html" class="link link--dark"><i class="fa fa-home"></i> Home</a></li>
+			</ul>
+		</nav>
+		<div class="wrapper">
+		<aside class="doc__nav">
+			<ul>
+				<li class="js-btn selected">Intro</li>
+				<li class="js-btn">Guide</li>
+				<li class="js-btn">Patchnotes</li>
+			</ul>
+		</aside>
+		<article class="doc__content">
+			<section class="js-section">
+				<h1>Total Mayhem Lite</h1>
+                <p>This mod discards most units found in Total Mayhem. Remaining units have been rebalanced and redesigned to fit vanilla FAF unit balance.</p>
+                <p>Permission to use Total Mayhem assets granted by Uveso. <br> Credit to Burnie, the original Total Mayhem author, and Uveso, who currently maintains it.
+				Thanks to Exotic_Retard for unit details code.</p>
+                <h4>Mod Dependency</h4>
+				<p><b>This mod requires Total Mayhem mod to be downloaded, as unit assets are pulled from there.</b></p> 
+				<p>Total Mayhem needs to be DOWNLOADED, but NOT ENABLED. If you enable it, both units from the original and rebalanced units will be present.</p>
+                
+                <h4>Strategic Icons</h4>
+				<p>This mod adds custom strategic icons for some of the units. Unfortunately it is not yet possible to mount textures from mod folders. Until it's been implemented,
+				follow below instructions to manually install custom strategic icons. This step is not required, but units with custom icons won't be visible when zoomed out
+				if this step is not completed.<br></p>
+                <p>Copy "texturepack.nxt" file from this mod folder into FAF assets directory, by default here:<br>C:/ProgramData/FAForever/gamedata
+				<br>Note, ProgramData folder is hidden by default.</p>                            
+                
+				<p>To download the mod, go to Mods section in the FAF client, search for Total Mayhem Lite and download.
+				<p>Hope you enjoy playing it!    -- Wodzu_93</p>
+			</section>
+			<section class="js-section">
+				<h1 id="Guide">Unit Guide</h1>
+					<div>
+						<p>Here you can familiarize yourself with new units this mod adds. Each unit will have a description about what that units is, its pros and cons, as well as
+						how to use it yourself or play against it.</p>
+					</div>
+						
+					<h2>Aeon - Buildings</h2>
+                        <div id="AeonBuildings" class="card">
+							<h3 id="W93AB1NAV"><img src="../images/TMLite/W93AB1NAV.png"><img src="../images/TMLite/W93AB2NAV.png">T1 and T2 Anti-Navy Defense</h3>
+                            <p>Static defense, meant to keep enemy navy away from your shoreline. T1 version significantly outranges and outguns Frigates, while T2 version is competitive with Destroyers.
+							T2 version is also amphibious. These guns can only fire at surface ships, and cannot engage or be ordered to fire upon ground units.<br><br>
+							Aeon T2 version fires three depth charges per salvo, making it capable of targeting underwater targets. It is also equipped with a small shield dome.</p><br>
+							<h3 id="W93AB1PMS"><img src="../images/TMLite/W93AB1PMS.png">Finther - T2 Perimeter Monitoring System</h3>
+                            <p>Cheap structure built on a Hydrocarbon deposit. Provides significant visual detection radius with no energy upkeep. Can be built underwater. Once you reach T2 tech and have your first
+							T2 Power Generator, reclaim your Hydrocarbon Power Plant and construct this building in its place. This building type is available to all factions, with no functional differences.</p><br>
+							<h3 id="W93AB2MX"><img src="../images/TMLite/W93AB2MX.png">Mizura - T2 Mass Strongpoint</h3>
+                            <p>This is a frontline alternative to T2 Mass Extractor. Fairly expensive, it sacrifices 33% of T2 Mass Extractor income for significantly more Health and support/defensive capabilities.
+							Building can be capped with Mass Storage to increase its extraction rate, just as regular Mass Extractors. Highly recommended as a starting point for a firebase.</p>
+							<p>Aeon version packs a small shield dome. It's big enough to protect adjacent T1 Mass Storage buildings, as well as 12 T2 defensive buildings. Weapon mounted on it is a rapid-firing
+							Quantum EM Autogun. This weapon does low damage, but has an EMP effect which makes is capable of stunlocking single enemy unit.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Counter to T1 and T2 Experimental units - pair with a bank of Oblivion T2 PD around it. Mizura stunlocks the experimental while Oblivion PDs kill it over time. Manually assign target if needed.</li>
+								<li>A compliment of 4 Mass Storage, 2 Oblivion PD, 1 Flak and Volcano TMD makes for a respectable firebase for reinforcing contested mass points.</li>								
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Use T2 Mobile Missile Launchers. Even if there is a Volcano TMD underneath Mizura's shield dome, missiles are likely to hit the bubble.</li>
+								<li>Seraphim T2 Teleport Ambush Bots can teleport inside its shield dome, dealing direct damage to the building.</li>
+								<li>If there is not too much AA weaponry around, Halcyon T1 Experimental Engineering Craft can reclaim this structure from the air.</li>
+								<li>Use Aeon T2 gunships to quickly focus fire and destroy Mizura with their high alpha damage.</li>
+								<li>Attack with large ground force - this building can only attack one target at a time, and deals low damage by itself.</li>
+                            </ul><br>
+							<h3 id="W93AB3SG"><img src="../images/TMLite/W93AB3SG.png">Orb - T3 Advanced Shield Generator</h3>
+                            <p>This shield generator must be built on Hydrocarbon deposits, but in exchange it generates an enormous shield dome, with great strengh and regeneration. Shield dome is large enough to cover entire main base in most cases. Shield cannot be effectively assisted.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Highly effective against standoff weapons like T3 static and T4 experimental artillery or Novax satellites.</li>
+								<li>Build T3 static shields around it for protection against units.</li>								
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Use shield-breaking weapons, such as Aeon Absolver or Seraphim T2 Experimental unit.</li>
+								<li>Gunships and strategic bombers can be used effectively, as they will fly underneath shield bubble and attack the building directly.</li>
+                            </ul>
+                        </div>
+						
+						<h2>Aeon - Air</h2>
+                        <div id="AeonAir" class="card">
+							<h3 id="W93AA1TB"><img src="../images/TMLite/W93AA1TB.png">Musca - T1 Torpedo Bomber</h3>
+                            <p>Light torpedo bomber, suited to destroying frigates and T1 submarines. Depth Charges ignore torpedo defense. Unit has a pair of direct fire air-to-ground guns which can be used to hunt down engineers.</p><br>
+							<h3 id="W93AA1E1"><img src="../images/TMLite/W93AA1E1.png">Halcyon - T1 Experimental Engineering Craft</h3>
+                            <p>Heavy-duty flying engineer. Has considerable HP, moves fairly slowly, can build, reclaim and repair. Building suite consists of entire T1 category, plus T2 static defenses. Has short range sonar.</p>
+							<h4>Upgrades</h4>
+							<ul>
+								<li><img src="../images/TMLite/UpgradeAeonRegen.png"><b>Nano-Repair System</b> - Provides moderate HP regeneration.</li>
+								<li><img src="../images/TMLite/UpgradeAeonBuildRate.png"><b>Rapid Farbricator</b> - Increases build rate.</li>
+                            </ul>
+							<h4>How to use</h4>
+							<ul>
+								<li>Combination of high HP and flying means this unit can access and survive conditions regular engineers cannot. Take advantage of this to reclaim wrecks direcly from active combat zone.</li>
+								<li>Unit has enough buildpower to use its Reclaim capabilities offensively, by directly reclaiming enemy units. Use this to cull enemy land army quickly.</li>
+								<li>Reclaiming ignores shielding - if enemy firebase has no or little AA, use this unit to get rid of enemy defences by reclaiming them.</li>
+								<li>While unit has no AA itself, its large HP pool allows it to withstand fire from small interceptor groups for some time. Build static T1 or T2 AA when caught by interceptors.</li>
+								<li>Use its flying nature to go slighly behind the front lines and build T1 walls to cut off reinforcements or deny way out to retreating enemy ACUs.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Build more Interceptors. Killing this unit quickly requires more air forces than usual threats.</li>
+								<li>Upgrading to T2 tech for Flak weaponry is an effective method - flak deals damage quickly to this unit due to its size.</li>
+								<li>Cybran T1 Experimental Assault Bot upgraded with AA missiles can keep this unit away as reclaiming experimentals is not fast enough to survive counterfire.</li>
+								<li>Aeon T2 Experimental AA Gunship can snipe this unit with an Overcharge shot, killing it instantly.</li>
+                            </ul><br>
+							<h3 id="W93AA2E1"><img src="../images/TMLite/W93AA2E1.png">Bishop - T2 Experimental AA Gunship</h3>
+                            <p>Air control unit. Has significant AA firepower, both in direct fire guns as well as missiles, in addition to large HP pool. Carries on-board radar as well.</p>
+							<h4><img src="../images/TMLite/FeatureOvercharge.png">Special Feature - Overcharge Sniper Cannon</h4>
+							<p>Unit can fire an Overcharge shot at air targets in range. Cannot toggle auto-fire. Requires 5000 stored Energy minimum per shot. Damage scales with stored Energy.</p>
+							<h4>Upgrades</h4>
+							<ul>
+								<li><img src="../images/TMLite/UpgradeAeonRange.png"><b>Improved Rangefinder</b> - Significantly increases range of Overcharge.</li>
+								<li><img src="../images/TMLite/UpgradeAeonRate.png"><b>Recharge Booster</b> - Increases rate of fire for gun-based AA weapons.</li>
+                            </ul>
+							<h4>How to use</h4>
+							<ul>
+								<li>Snipe high priority air targets - such as transports, strategic bombers or gunships.</li>
+								<li>Take advantage of the range upgrade for Overcharge - you can safely snipe enemy air units from outside of enemy air defenses, effectively preventing your enemy from building up a substancial air force.</li>
+								<li>Keep it close to your ACU or land forces to deny air-to-ground attacks from enemy air forces.</li>
+								<li>Avoild large groups of T2/T3 air fighers - despite its large HP pool, this unit will still go down quickly if swarmed with enemy fighters in sufficient numbers.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Large numbers of T2 or T3 fighters will overwhelm this unit with sheer alpha damage on a first pass.</li>
+								<li>Build ground-based AA units. This unit is completely defenceless against ground-to-air weaponry.</li>
+								<li>Seraphim T3 Shield Planes can soak up shots from its Overcharge, protecting your own air force from snipes.</li>
+								<li>Cybran T4 Experimental Anti-Air Bot will quickly kill this unit with its anti-air weaponry.</li>
+                            </ul>
+                        </div>
+						
+						<h2>Aeon - Land</h2>
+                        <div id="AeonLand" class="card">
+							<h3 id="W93AL1DT"><img src="../images/TMLite/W93AL1DT.png">Lintea - T1 Medium Tank</h3>
+                            <p>Sturdier alternative to the Aurora. This unit has more health and equipped with personal shield. Weapon is slow firing, with highly damaging shots, but has low range.</p><br>
+							<h3 id="W93AL2ART"><img src="../images/TMLite/W93AL2ART.png">Pumice - T2 Mobile Artillery</h3>
+                            <p>This unit is an excelent building destroyer - weapon is nearly pin-point accurate and very fast firing. Low health, low acceleration.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Anti-Shield - thanks to its rapid fire, even one will take down unassisted shield generators, as very short delay between shots will completely prevent shields from recharging.</li>
+								<li>Load them into air transports for eco raiding - extended range compared to T1 Mobile Light Artillery makes them very good at taking out Mass Extractors.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Projectiles are very easy to dodge - order your units to change direction othen to avoid fire. Once in firing range, these units go down quick.</li>
+								<li>Attack from the air with gunships or fighter-bombers, or even T1 bombers - HP on these units is very low for a T2.</li>
+                            </ul><br>
+							<h3 id="W93AL2E1"><img src="../images/TMLite/W93AL2E1.png">Akuma - T2 Experimental Assault Bot</h3>
+                            <p>Direct fire brawling experimental. Decent HP, respectable firepower and speed. Cannot cross water.</p>
+							<h4>Upgrades</h4>
+							<ul>
+								<li><img src="../images/TMLite/UpgradeAeonAoe.png"><b>Reacton Refractor</b> - All weapons have increased area of effect.</li>
+								<li><img src="../images/TMLite/UpgradeAeonShield.png"><b>Personal Shield Generator</b> - Installs personal shield.</li>
+                            </ul>
+							<h4>How to use</h4>
+							<ul>
+								<li>Direct combat with other T2 experimentals or T2 armies is the best use of this unit.</li>
+								<li>Weapon AoE upgrade is useful for destroying structures and point defense - install it before base assaults.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Air attack with T2 gunships will kill it, since Akuma has no AA.</li>
+								<li>Retreating into water bodies will make you safe from this unit.</li>
+                            </ul><br>
+							<h3 id="W93AL3ST"><img src="../images/TMLite/W93AL3ST.png">Rhyolite - T3 Siege Tank</h3>
+                            <p>Expensive and resilient tank. Packs the highest alpha damage for T3 direct fire land units, albeit on very short range. While the hull of the unit is barely stronger than T2 tanks,
+							it has high capacity personal shield, providing it impressive lasting power if allowed to recharge. Unit is amphibious and will drive on a seabed when ordered to enter water bodies. Unit is also equipped with short range sonar.</p>
+							<h4><img src="../images/TMLite/FeatureSubmergedFire.png">Special Feature - Submerged Fire</h4>
+							<p>Unit can fire its weapon into, from and inside water bodies, freely attacking ships and subs from both land and seabed.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>On land, charge them into enemies - Percivals and Bricks have more range, but are slower, so these units will catch up to them while soaking damage with the shields.</li>
+								<li>On maps with shallow pools, like Canis, drive them into the water for protection - enemy units won't be able to fire at them, while Rhyolites can fire at enemies without issues.</li>
+								<li>While naval units will almost universally outrun them, submerged T4 experimentals won't - and make great targets due to Rhyolites retaining full firepower while underwater.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Stunning weapons ignore personal shields - any unit with EMP weapons will stun them.</li>
+								<li>Gunships will reliably whittle them down.</li>
+								<li>Direct fire T4 experimentals like Monkeylord, Ythotha, Blood Asp, Hades or Megalith will kill them due to range and DPS advantage when on land.</li>
+								<li>When underwater, any subs, non-UEF destroyers or Coopers will eventually kill them with torpedoes due to both greater range and speed. Kite them until they are dead.</li>
+                            </ul><br>
+							<h3 id="W93AL3PD"><img src="../images/TMLite/W93AL3PD.png">Tachylite - T3 Mobile Missile Defense</h3>
+                            <p>Mobile TMD. Singificantly more effective than T2 projectile-based static missile defense. Can reliably intercept reinforced projectiles, such as 'Billy' tactical nukes.
+							Counters missile based units, such as T2 Mobile Missile Launchers, UEF Spearhead or Cybran Scarlet. Can also intercept anti-air tactical missiles from Cybran T3 Strategic Interceptors.</p>
+							<p>Aeon version hovers, which allows it to be used at sea.</p><br>
+							<h3 id="W93AL4E1"><img src="../images/TMLite/W93AL4E1.png">Flash - T4 Experimental Hover Tank</h3>
+                            <p>Very fast experimental unit, optimized for raiding. Its weapon fires a single projectile that then splits into a horizontal volley of pellets. Substandard DPS and range for a T4 unit. Fairly high build cost.
+							Short range OMNI sensor counters Cybran Cloak-Stealth units.</p>
+							<h4><img src="../images/TMLite/FeatureShield.png">Special Feature - Shield/Cloak Alternate</h4>
+							<p>Unit can switch between shielded and cloaked state with a toggle on the orders panel. Shield drains Energy, while Cloak does not.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Raiding is the main job of this unit - use its very high speed and scattershot weapon to bypass enemy defenses and destroy entire groups of vulnerable targets,
+								such as Mass Extractors, Mass Fabricators, Power Generators or Engineers.</li>
+								<li>Avoid enemy T4s. This unit does not perform well in direct combat against direct fire T4s.</li>
+								<li>Scattershot weapon is good at dealing with lower tech armies, killing multiple units at once in one salvo.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>This unit is too fast to catch it with any ground vehicle - use gunships and bombers to intercept it.</li>
+								<li>Keep at least one direct fire T4 near your economy - a Galactic Collossus, Monkeylord or Ythotha will fairly easily kill this unit.</li>
+                            </ul><br>
+							<h3 id="W93AL4E2"><img src="../images/TMLite/W93AL4E2.png">Hades - T4 Experimental Siege Bot</h3>
+                            <p>Very high cost super-heavy class experimental. Main role is long-range bombardment, but unit can perform decently at various roles due to well rounded stats. Main weapon is high-damage
+							long-range artillery cannon with long firing cycle, while direct fire weapons consist of two beams and two batteries of Oblivion Cannons. Unit also has AA missiles and more than double HP of a Galactic Collossus. Its OMNI sensor range slightly exceeds Hades's artillery range - no unit can hide.</p>
+							<h4><img src="../images/TMLite/FeatureTeleport.png">Special Feature - Short Range Teleport</h4>
+							<p>Unit can perform short-range hops with teleportation. Requires significant Energy, but charge time is fairly short. Range indicated by dull yellow ring.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Hades can be used similarly to Fatboys, attacking enemy bases and units from long range. Artillery cannon packs enough punch to kill unupgraded ACUs with one shot.</li>
+								<li>Unit will fight in 1 vs 1 against enemy T4's very well due to combination of high damage output and high HP.</li>
+								<li>Teleport can be used to bypass terrain obstacles, such as cliffs or mountain ranges.</li>
+								<li>Hades can use teleport kiting - get in range of artillery weapon, then schedule a teleport order behind - enemy unit(s) will approach, trying to get into firing range.
+								Then,as they close distance, teleport activates and puts more distance between Hades and the targets - allowing you to safely attack with artillery cannon again. Repeat until enemies are destroyed.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Weak AA weaponry - attack with Gunship swarm or large group of Strategic Bombers.</li>
+								<li>Air T4 experimentals willl kill a Hades, but require some time or multiple passes to kill it.</li>
+								<li>Use multiple cheaper T4s, such as Monkeylord, to attack it. For the price of a Hades, you can build 2 to 3 cheaper T4 units that will have more combined DPS than Hades does.</li>
+								<li>Unit is slow, and cannot fire backwards with the artillery cannon while torso is facing forward - spooking out your enemy to turn and flee with the Hades eliminates most of its damage output.</li>
+								<li>1 full-scale Nuke is enough to destroy it.</li>
+                            </ul>
+                        </div>
+						
+						<h2>Aeon - Sea</h2>
+                        <div id="AeonSea" class="card">
+							<h3 id="W93AL2HT"><img src="../images/TMLite/W93AL2HT.png">Gheel - T2 Naval Hover Artillery</h3>
+                            <p>Cheap and fragile anti-navy unit. Fires a Depth Charge over large distances in the air, that then splash into water and home in on targets. Secondary weapons are short-ranged Chrono Torpedoes and direct fire guns.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Depth Charges ignore anti-torpedo weaponry and cannot miss - use these against pesky units that dodge your Exodus Destroyer's shots.</li>
+								<li>Unit is an outstanding submarine hunter, provided you have Sonar coverage - it cannot be attacked by torpedoes, while it can attack enemy subs without issues.</li>
+								<li>Use these units when enemies have air control and use many T2 Torpedo Bombers - Gheels cannot be attacked by torpedoes.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Since Gheels are small and mobile, long range shots miss othen - use fast Frigates to close distance, or ships with beam weaponry, like Seraphim T2 Destroyer.</li>
+								<li>Attack from air with Gunships, T1 Bombers or Aeon T1 Torpedo Bombers.</li>
+								<li>Use mobile shields to soak up shots from them.</li>
+                            </ul>
+                        </div>
+						
+						<h2>Cybran - Buildings</h2>
+                        <div id="CybranBuildings" class="card">
+							<h3 id="W93CB1NAV"><img src="../images/TMLite/W93CB1NAV.png"><img src="../images/TMLite/W93CB2NAV.png">T1 and T2 Anti-Navy Defense</h3>
+                            <p>Static defense, meant to keep enemy navy away from your shoreline. T1 version significantly outranges and outguns Frigates, while T2 version is competitive with Destroyers.
+							T2 version is also amphibious. These guns can only fire at surface ships, and cannot engage or be ordered to fire upon ground units.<br><br>
+							Cybran T2 version is equipped with anti-torpedo weaponry as well.</p><br>
+							<h3 id="W93CB1PMS"><img src="../images/TMLite/W93CB1PMS.png">Hacker - T2 Perimeter Monitoring System</h3>
+                            <p>Cheap structure built on a Hydrocarbon deposit. Provides significant visual detection radius with no energy upkeep. Can be built underwater. Once you reach T2 tech and have your first
+							T2 Power Generator, reclaim your Hydrocarbon Power Plant and construct this building in its place. This building type is available to all factions, with no functional differences.</p><br>
+							<h3 id="W93CB2MX"><img src="../images/TMLite/W93CB2MX.png">Pen - T2 Mass Strongpoint</h3>
+                            <p>This is a frontline alternative to T2 Mass Extractor. Fairly expensive, it sacrifices 33% of T2 Mass Extractor income for significantly more Health and support/defensive capabilities.
+							Building can be capped with Mass Storage to increase its extraction rate, just as regular Mass Extractors. Highly recommended as a starting point for a firebase.</p>
+							<p>Cybran version mounts a dual-purpose Microwave Laser, capable of targeting both ground and air units, with high damage output. Much stronger than regular Cerberus PDs.</p><br>
+							<h3 id="W93CB3PD"><img src="../images/TMLite/W93CB3PD.png">Triple Threat - T3 Heavy Point Defense</h3>
+                            <p>The heaviest, most armored and most damaging Point Defense building in the game. Can be built only on Hydrocarbon deposits. Mounts triple-barrelled Heavy Proton Cannons, capable of severly damaging or outright obliterating T4 land experimentals.</p>
+                        </div>
+						
+						<h2>Cybran - Air</h2>
+                        <div id="CybranAir" class="card">
+							<h3 id="W93CA2CF"><img src="../images/TMLite/W93CA2CF.png">Firefly - T2 Combat Fighter</h3>
+                            <p>Intermediate tier air-to-air combat unit. Carries a signature Cybran stealh system, preventing enemies from aquiring a radar signature. Unit uses missile bursts, with high damage but long fire cycle. Flight pattern is set to hit and run rather than dogfighting.</p><br>
+							<h3 id="W93CA2E1"><img src="../images/TMLite/W93CA2E1.png">Invader - T2 Experimental Gunship</h3>
+                            <p>Decent air raiding experimental. Has rapid fire guns and AA missiles. Standard air speed.</p>
+							<h4><img src="../images/TMLite/FeatureStealthField.png">Special Feature - Stealth Field</h4>
+							<p>Unit can stealth itself and other friendly units in the area.</p>
+							<h4>Upgrades</h4>
+							<ul>
+								<li><img src="../images/TMLite/UpgradeCybranEMP.png"><b>Rail Launchers</b> - AA weapon has increased range and rate of fire.</li>
+								<li><img src="../images/TMLite/UpgradeCybranLaser.png"><b>Microwave Laser Generator</b> - Installs air-to-ground laser weapon.</li>
+                            </ul>
+							<h4>How to use</h4>
+							<ul>
+								<li>Use stealth field to escord transports undetected into enemy territory.</li>
+								<li>Try to snipe enemy ACU. Install laser upgrade beforehand for more DPS.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Scout for this unit with air scouts, or OMNI capable units.</li>
+								<li>Keep flak units where you suspect this unit could attack.</li>
+								<li>Use fighters to destroy it. AA weaponry is quite weak unless upgraded.</li>
+                            </ul><br>
+							<h3 id="W93CA3SI"><img src="../images/TMLite/W93CA3SI.png">Eagle-Eye - T3 Strategic Interceptor</h3>
+                            <p>Specialized interceptor. Regular air-to-air capabilities are subpar, instead unit constructs and fires tracking anti-air tactical missiles at air targets from long range, dealing very high damage per shot with area of effect. Equipped with personal stealth system.
+							Significantly faster than Air Superiority Fighters, but less agile.</p>
+							<h4><img src="../images/TMLite/FeatureMissile.png">Special Feature - Anti-Satellite</h4>
+							<p>Tactical missiles fired by this unit can track and damage Novax satellites, dealing miniscule amounts of damage to them. It takes approximately 20 missiles to destroy a Novax Satellite.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Avoid directly engaging enemy ASF, Eagle-Eyes easily lose against them.</li>
+								<li>Keep few of these units around to intercept high priority air targets, such as T3 Gunships, T3 Strategic Bombers or loaded air transports. Most of these require 2 missiles to take down.</li>
+								<li>Tactical missiles can be used to thin enemy ASF swarm before your own ASF engage them - utilize split-attack command (SHIFT + G).</li>
+								<li>Fire missiles at air T4 units to predamage them, or even completely destroy if Eagle-Eyes are fully loaded and in sufficient numbers.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Keep your air grounded if enemy tries to snipe it - missiles do vastly reduced (-92%) damage to grounded targets.</li>
+								<li>Missiles are classified as tactical - meaning TMD weaponry can intercept them. If possible, keep T3 mobile TMD land units nearby your aerial operation area.</li>
+								<li>ASF can dodge missiles from these units with proper micro, as missile tracking is sluggish. If you see these coming, perform sharp turns at right moments.</li>
+								<li>Use OMNI coverage paired with forward placed, ground based AA units to try to destroy these, T3 AA being the best option.</li>
+								<li>Seraphim T3 Shield Plane is a direct counter to Eagle-Eyes, with both shield and on-board TMD.</li>
+                            </ul>
+                        </div>
+						
+						<h2>Cybran - Land</h2>
+                        <div id="CybranLand" class="card">
+							<h3 id="W93CL1SM"><img src="../images/TMLite/W93CL1SM.png">Aes - T1 Cloak Bot</h3>
+                            <p>Slightly weaker, but also cheaper, variant of the Mantis Bot. Has a cloaking system, for raiding engineers/mass extractors in the early game before radars are built.</p><br>
+							<h3 id="W93CL1E1"><img src="../images/TMLite/W93CL1E1.png">Karakurt - T1 Experimental Assault Bot</h3>
+                            <p>Punch-packing amphibious bot. Carries a single-target high DPS Microwave Laser, a pair of AoE Heavy Electron Bolters and a guided missile battery. Direct fire weapons
+							are front facing only. Unit can activate personal stealth system, becoming invisible to radars. Can repair itself very slowly.</p>
+							<h4>Upgrades</h4>
+							<ul>
+								<li><img src="../images/TMLite/UpgradeCybranRate.png"><b>Microwave Accelerator</b> - Microwave Laser damage output +50%.</li>
+								<li><img src="../images/TMLite/UpgradeCybranAA.png"><b>Nanite Missile System</b> - Installs AA missile weapon.</li>
+                            </ul>
+							<h4>How to use</h4>
+							<ul>
+								<li>This unit fights well against T1 land units.</li>
+								<li>Sneak it into enemy base using stealth.</li>
+								<li>Avoid enemy ACUs.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Overcharge this unit to kill it quickly.</li>
+								<li>Flanking works well due to limited weapon arcs - split your land forces and try to get behind it.</li>
+								<li>Transitioning to T2 tech in time will make it a no-threat, as T2 land units are much sturdier.</li>
+                            </ul><br>
+							<h3 id="W93CL2E1"><img src="../images/TMLite/W93CL2E1.png">Pyrite - T2 Experimental Cloak Bot</h3>
+                            <p>Stealth assault experimental. Has personal cloaking to hide it from visual detection. Uses Aoe direct fire weaponry. Plenty of HP and firepower to fight T1 and smaller T2 unit groups. Slowly self-repairs itself.</p>
+							<h4>Upgrades</h4>
+							<ul>
+								<li><img src="../images/TMLite/UpgradeCybranStealth.png"><b>Personal Stealth Generator</b> - Installs always-active stealth. Cloak Energy usage +300%.</li>
+								<li><img src="../images/TMLite/UpgradeCybranRepair.png"><b>Nano-Repair System</b> - Increases self-repair rate and HP.</li>
+                            </ul>
+							<h4>How to use</h4>
+							<ul>
+								<li>Upgrade with stealh for an undetectable unit for base assaults. Alternatively, pair this units with Deceivers for similar effect.</li>
+								<li>With Nanorepair upgrade, unit becomes good hit-and-run attacker, retreating after an encounter for repairs.</li>
+								<li>Avoid enemy ACUs.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Overcharge this unit to kill it quickly.</li>
+								<li>Transition to T3 and build OMNI sensors to counter its stealth.</li>
+								<li>Serapthim land and air T2 scouts have OMNI sensors.</li>
+								<li>UEF T2 Experimental can be upgraded with an OMNI sensor and fight this stealthed unit directly.</li>
+                            </ul><br>
+							<h3 id="W93CL3RT"><img src="../images/TMLite/W93CL3RT.png">Demon - T3 Heavy Recon Tank</h3>
+                            <p>Very fast-moving intelligence unit, equipped with a radar system. Armament consists of AoE Heavy Proton Cannon and a pair of AA missile launchers.
+							Unit can activate combined personal stealth and cloak system, becoming completely undetectable to non-OMNI visual and radar sensors. Weapons are disabled while stealthed.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Activate stealth and use them for spotting without being detected.</li>
+								<li>Unit can perform sneak attacks into enemy base and kill economy and buildpower, provided OMNI radars had been taken out.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Use T3 Spy Planes to keep an eye for any potential raids from these units.</li>
+								<li>Build more OMNI sensors and have backups in case of snipes.</li>
+								<li>AA weaponry is very weak - attacks from air are effective and attackers won't take much counterfire damage.</li>
+                            </ul><br>
+							<h3 id="W93CL3ML"><img src="../images/TMLite/W93CL3ML.png">Scarlet - T3 Rocket Battery</h3>
+                            <p>Highly damaging and expensive rocket artillery unit. Moves fast and can attack while on the move. Fires large amounts of rockets per salvo in low arc trajectory over large area.
+							Unit is volatile and will explode if destroyed. Rockets are classified as tactical and can be shot down by TMD weapons.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Since rockets are inaccurate, target entire land armies or bases to ensure hits.</li>
+								<li>Keep them away and separate from other units, so death weapon won't damage your own units.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Use T3 Strategic Bombers to kill these units in a single pass.</li>
+								<li>Use a combination of mobile shields with mobile TMD. T3 mobile TMD is highly effective and few of them will severly reduce damage from this unit. Remaining rockets will be intercepted by shielding.</li>
+                            </ul><br>
+							<h3 id="W93CL3PD"><img src="../images/TMLite/W93CL3PD.png">Sentinel - T3 Mobile Missile Defense</h3>
+                            <p>Mobile TMD. Singificantly more effective than T2 projectile-based static missile defense. Can reliably intercept reinforced projectiles, such as 'Billy' tactical nukes.
+							Counters missile based units, such as T2 Mobile Missile Launchers, UEF Spearhead or Cybran Scarlet. Can also intercept anti-air tactical missiles from Cybran T3 Strategic Interceptors.</p>
+							<p>Cybran version is equipped with Personal Stealth.</p><br>
+							<h3 id="W93CL4E1"><img src="../images/TMLite/W93CL4E1.png">Indigo - T4 Experimental Mobile Cloak Field Generator</h3>
+                            <p>Specialized combo unit. Provides area-of-effect cloaking effect in wide radius around itself. Weapons mounted have an EMP effect and can stun one to two targets at a time.
+							Use in combination with other units to fully utilize its potential.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Main usage is pairing this unit with a Monkeylord experimental - each unit compliments another's system, making this combination undetectable to non-OMNI sensors.</li>
+								<li>Pair with Deceivers to hide entire armies from detection.</li>
+								<li>Utilize stun weaponry to lock out high priority units of a lesser tech level.</li>
+								<li>Use this unit as a meat shield - it has plenty of HP but little damage output.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Scout thoroughly and frequently - Indigos won't be used by themselves, and there is nothinig worse than a suprise T4 at your doorstep.</li>
+								<li>Increase your OMNI coverage with more buildings - enemies are likely to try sniping your OMNI sensors to sneak this experimental in.</li>
+                            </ul><br>
+							<h3 id="W93CL4E2"><img src="../images/TMLite/W93CL4E2.png">Consolidator - T4 Experimental Anti-Air Bot</h3>
+                            <p>Dedicated anti-air unit, meant to provide air control and denial from the ground. Primary weapon fires energy flak pellets over long distance. Secondary AA weapon is a medium range missile launcher.
+							Unit has no notable anti-ground weaponry other than a weak direct fire burst laser. Personal stealth system can hide this unit from radar detection, while OMNI sensor will detect enemy stealth aircraft in close proximity.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Use this unit as an escort for your land assaults to keep them safe from air retaliations.</li>
+								<li>If close enough to enemy territory, this unit can attack air units inside enemy base without retaliation from point defenses.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Split your air forces on approach, so this unit won't kill them all with AoE on its weaponry.</li>
+								<li>Consolidator is basically defenseless against ground attacks.</li>
+                            </ul>
+                        </div>
+						
+						<h2>Cybran - Sea</h2>
+                        <div id="CybranSea" class="card">
+							<h3 id="W93CS1C"><img src="../images/TMLite/W93CS1C.png">Charcaradon Class - T1 Light Destroyer</h3>
+                            <p>T1 destroyer. Has more range and damage output that frigates, including a short-range torpedo launcher. Fairly expensive, but can activate stealth, preventing radar and sonar detection.</p><br>
+							<h3 id="W93CS3BC"><img src="../images/TMLite/W93CS3BC.png">Coelacanth Class - T3 Battlecruiser</h3>
+                            <p>Cybran ship of the line, designed for brawling with lower tech level ships. Packs noticeably more DPS than Galaxy Battleships, albeit on a shorter range. Respectable anti-air weaponry.</p><br>
+							<h4><img src="../images/TMLite/FeatureMissile.png">Special Feature - Strategic Missile Defense</h4>
+							<p>Unit can construct and fire standard anti-nuke missiles. Rate of construction is significantly lower than stationary Strategic Missile Defense, but can be assisted.</p>
+                        </div>
+						
+						<h2>Seraphim - Buildings</h2>
+                        <div id="SeraphimBuildings" class="card">
+                        	<h3 id="W93SB1NAV"><img src="../images/TMLite/W93SB1NAV.png"><img src="../images/TMLite/W93SB2NAV.png">T1 and T2 Anti-Navy Defense</h3>
+                            <p>Static defense, meant to keep enemy navy away from your shoreline. T1 version significantly outranges and outguns Frigates, while T2 version is competitive with Destroyers.
+							T2 version is also amphibious. These guns can only fire at surface ships, and cannot engage or be ordered to fire upon ground units. Seraphim T2 version has increased DPS compared to other factions.</p><br>
+							<h3 id="W93SB1PMS"><img src="../images/TMLite/W93SB1PMS.png">Uyal Ha-Esel - T2 Perimeter Monitoring System</h3>
+                            <p>Cheap structure built on a Hydrocarbon deposit. Provides significant visual detection radius with no energy upkeep. Can be built underwater. Once you reach T2 tech and have your first
+							T2 Power Generator, reclaim your Hydrocarbon Power Plant and construct this building in its place. This building type is available to all factions, with no functional differences.</p><br>
+							<h3 id="W93SB2MX"><img src="../images/TMLite/W93SB2MX.png">Ve-Us - T2 Mass Strongpoint</h3>
+                            <p>This is a frontline alternative to T2 Mass Extractor. Fairly expensive, it sacrifices 33% of T2 Mass Extractor income for significantly more Health and support/defensive capabilities.
+							Building can be capped with Mass Storage to increase its extraction rate, just as regular Mass Extractors. Highly recommended as a starting point for a firebase.</p>
+							<p>Seraphim Mass Strongpoint mounts a long range burst flak for dealing with air units.</p><br>
+							<h4><img src="../images/TMLite/FeatureRegenField.png">Special Feature - Restoration Field</h4>
+							<p>Unit projects an aura that will automatically repair units for free. Multiple overlapping Mass Strongpoint auras will stack.</p><br>
+							<h3 id="W93SB3ES"><img src="../images/TMLite/W93SB3ES.png">Athaamla - T3 Engineering Station</h3>
+                            <p>High-Power engineering structure, capable of very rapid construction. Requires a Hydrocarbon deposit to be built on. Assistance range is big enough to cover most of the base, if not all of it.</p>
+                        </div>
+						
+						<h2>Seraphim - Air</h2>
+                        <div id="SeraphimAir" class="card">
+							<h3 id="W93SA2SC"><img src="../images/TMLite/W93SA2SC.png">Uhthesinn - T2 Advanced Scout</h3>
+                            <p>Intermediate tier intelligence gathering unit. Is equipped with a radar and sonar, short range OMNI sensor, as well as Radar Jamming system that allows it to essencially ignore first salvo
+							of enemy T2 and T3 Anti-Air units and structures, to get further inside enemy territory than T1 Air Scouts or sometimes even T3 Spy Planes.</p><br>
+							<h3 id="W93SA3HG"><img src="../images/TMLite/W93SA3HG.png">Ia-Usla - T3 Heavy Gunship</h3>
+                            <p>Expensive and powerful gunship, has more armor and damage output than other factions gunships. Its two anti-air guns can also target ground units, and will prioritize ground targets.
+							Unit is slower compared to other gunships.</p><br>
+							<h3 id="W93SA3SP"><img src="../images/TMLite/W93SA3SP.png">Vesinnee - T3 Shield Plane</h3>
+                            <p>Flying mobile shield generator. Shield is rather weak, but has large radius. Unit is also equipped with anti-missile weapon to shoot down tactical missiles. Flight pattern is identical
+							with T3 Strategic Bombers.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Keep few of these on standby to intercept snipe attempts on your ACU - shields can soak up damage from Strategic Bombers or other air units.</li>
+								<li>While it requires some micromanagement, having few of these inside you ASF group can drastically shift the initiative for your benefit when fighting enemy ASF group.</li>
+								<li>Since flight pattern of this unit matches T3 Strategic Bombers, use this to shield the appproach of the bombers - shield will protect them from initial AA fire.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Make more AA units and buildings to brute force through the shields.</li>
+								<li>ASF can pass into the shield and fire at the unit directly - which will kill it quickly due to low HP of the unit.</li>
+                            </ul>
+                        </div>
+						
+						<h2>Seraphim - Land</h2>
+                        <div id="SeraphimLand" class="card">
+							<h3 id="W93SL1RB"><img src="../images/TMLite/W93SL1RB.png">Tha-Yath - T1 Restoration Bot</h3>
+                            <p>Land support unit. Equipped with a direct fire gun, as well as anti air weapon. More expensive than mainline tanks.</p><br>
+							<h4><img src="../images/TMLite/FeatureRegenField.png">Special Feature - Restoration Field</h4>
+							<p>Unit projects an aura that will automatically repair units for free. Auras of multiple Restoration Bots do not stack.</p><br>
+							<h3 id="W93SL1E1"><img src="../images/TMLite/W93SL1E1.png">Yath-Us - T1 Experimental Interference Tank</h3>
+                            <p>Specialzied EMP stunning unit. Fires a single projectile on a long recharge cycle, that stuns all non-ACU units in a wide area on hit. Higher tech units are stunned for shorter duration. Actual damage output is very low.</p>
+							<h4>Upgrades</h4>
+							<ul>
+								<li><img src="../images/TMLite/UpgradeSeraphimStun.png"><b>EM Charge Amplifier</b> - Adds a second shot. Does less damage with smaller stun radius, but increased stun duration that stacks with previous shot.</li><br>
+								<li><img src="../images/TMLite/UpgradeSeraphimRate.png"><b>Chronotron Accelerator</b> - Increases fire rate and range of the weapon.</li>
+                            </ul>
+							<h4>How to use</h4>
+							<ul>
+								<li>Keep away from ACUs - Overcharge will kill this unit quickly.</li>
+								<li>Use this unit to support your army and turn tide in T1 engagements - one well placed shot will disable most of enemy units, allowing your army to eliminate them with little losses.</li>
+								<li>With range upgrade, this unit can stun PDs outside of their range.</li>
+								<li>Have few Restoration Bots or and ACU with repair field around to keep this unit alive.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Tech up to either T2 Point Defense or T2 mobile shields - shielding blocks stun completely, while PDs will kill it at range.</li>
+								<li>Use the ACU to overcharge it.</li>
+								<li>Split your land forces thin, to prevent it from stunning many units at once.</li>
+                            </ul><br>
+							<h3 id="W93SL2RT"><img src="../images/TMLite/W93SL2RT.png">Hethaam - T2 Recon Tank</h3>
+                            <p>Fast scouting unit. It hovers and moves very fast. Has longer vision range than most units and carries a OMNI sensor as well. Firepower equivalent to T1 tank.</p><br>
+							<h3 id="W93SL2TB"><img src="../images/TMLite/W93SL2TB.png">Iltha - T2 Teleport Ambush Bot</h3>
+                            <p>Ilshavoh variant. Has downgraded gun and armor and cost more mass.</p><br>
+							<h4><img src="../images/TMLite/FeatureTeleport.png">Special Feature - Short Range Teleport</h4>
+							<p>Unit can perform short-range hops with teleportation. Requires modest amount Energy and charge time is short.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Use the teleporter to raid plateous or other elevated positions normally unaccessible to ground units alone.</li>
+								<li>Teleport inside firebases to quickly take down fragile shield generators from inside shield domes.</li>
+								<li>Bypass hills or other movement-preventing obstacles to attack undefended positions.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Keep few T2 gunships around to react to teleport attacks.</li>
+								<li>Charge these bots if you spot them activating teleport.</li>
+                            </ul><br>
+							<h3 id="W93SL2EART"><img src="../images/TMLite/W93SL2EART.png">Yenshavoh - T2 Hover EMP Artillery</h3>
+                            <p>Long range support unit. Fires barely damaging shots at low arc trajectory that stun units for a short time. Weapon is slightly inaccurate, but stun radius is applied to an area.
+							Fires fairly frequently.</p><br>
+							<h3 id="W93SL2E1"><img src="../images/TMLite/W93SL2E1.png">Yenah-lao - T2 Experimental Shield Disruptor Bot</h3>
+                            <p>Specialized unit designed to break firebases. Right weapon deals x10 damage to shielding, quickly stripping them off, from considerable range. Secondary direct fire weapon deals with ground units.
+							 Bot has considerable armor and can survive extended period of time under enemy fire.</p>
+							<h4>Upgrades</h4>
+							<ul>
+								<li><img src="../images/TMLite/UpgradeSeraphimRepair.png"><b>Nano-Repair System</b> - Significantly increases self-repair rate.</li><br>
+								<li><img src="../images/TMLite/UpgradeSeraphimTeleport.png"><b>Personal Teleporter</b> - Installs short range teleporter.</li>
+                            </ul>
+							<h4>How to use</h4>
+							<ul>
+								<li>Take down enemy shielding from range - either enemy firebases, or the mobile shields protecting enemy army.</li>
+								<li>With the repair upgrade, this unit in hard to take down - use it as a brawler VS T2 army.</li>
+								<li>Avoid ACUs - while large health pool will make one or two Overcharges survivable, damage output is not enough to duel an ACU.</li>
+								<li>Bypass hills or other movement-preventing obstacles with teleport upgrade to attack undefended positions.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Overcharge with the ACU, preferably with range and/or shield upgrades.</li>
+								<li>Attack from the air. This unit has no AA weapons to speak of.</li>
+								<li>Large amounts of T2 PD works, since this unit weaponry is shorter ranged.</li>
+								<li>Weapons mounted are forward facing - flanking it from the side or behind will make it unable to return fire.</li>
+                            </ul><br>
+							<h3 id="W93SL2E2"><img src="../images/TMLite/W93SL2E2.png">Thaam-Thum - T2 Experimental Assimilator Bot</h3>
+                            <p>Highly specialized capture unit. Has very high buildpower, but can only use it to capture units. Mounts two weapons with a weak EMP effect,
+							to stun targets and make them vulnerable for capturing.</p>
+							<h4><img src="../images/TMLite/FeatureConvert.png">Special Feature - Health Assimilation</h4>
+							<p>Capturing a unit will add it's current health to this unit as both health and maximum health.</p>
+							<h4>Upgrades</h4>
+							<ul>
+								<li><img src="../images/TMLite/UpgradeSeraphimRas.png"><b>Resource Allocation System</b> - Provides resource generation.</li><br>
+								<li><img src="../images/TMLite/UpgradeSeraphimTeleport.png"><b>Construction Suite</b> - Reduces buildpower, but enables Field Engineering Suite, repair and assist.</li>
+                            </ul>
+							<h4>How to use</h4>
+							<ul>
+								<li>Bind Capture order to a keyboard shortcut - this unit requires micromanagement to make the most out of it.</li>
+								<li>Rush into enemies and when close, order capture command. Best used on structures, as they can't run away.</li>
+								<li>With Construction Upgrade, unit can very quickly build defences in the field, using its considerable health pool to withstand enemy fire.</li>
+								<li>After assimilating several enemies, consider installing Construction Suite and turn this unit into super-durable engineer.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>When you spot it, immiedately retreat all ground units and keep it out of range - health assimilation will make it near impossible to kill if it starts capturing your units.</li>
+								<li>Attack from the air. This unit has no AA weapons, but be careful and try to check if it has Construction upgrade - it can whip out AA guns very quickly.</li>
+								<li>Use ACU to overcharge it - ACU can't be captured and is therefore immunte to its most dangerous feature.</li>
+                            </ul><br>
+							<h3 id="W93SL3AB"><img src="../images/TMLite/W93SL3AB.png">Heth-Zthuha - T3 Assault Bot</h3>
+                            <p>Mainline T3 heavy bot. Expensive and has very low armor for a T3 unit, instead relying on super-rapid self-repair to keep itself alive. Mounts quad-barreled direct fire beam on a forward facing mount, 
+							which makes it unable to fire while retreating. Equipped with personal cloaking system.</p><br>
+							<h3 id="W93SL3PD"><img src="../images/TMLite/W93SL3PD.png">Hethaamah - T3 Mobile Missile Defense</h3>
+                            <p>Mobile TMD. Singificantly more effective than T2 projectile-based static missile defense. Can reliably intercept reinforced projectiles, such as 'Billy' tactical nukes.
+							Counters missile based units, such as T2 Mobile Missile Launchers, UEF Spearhead or Cybran Scarlet. Can also intercept anti-air tactical missiles from Cybran T3 Strategic Interceptors.</p>
+							<p>Seraphim version has extended range compared to other factions.</p><br>
+							<h3 id="W93SL4E1"><img src="../images/TMLite/W93SL4E1.png">Thaez-Atha - T4 Experimental Siege Bot</h3>
+                            <p>Expensive and bulky base destroyer. This unit is designed to demolish turtle style players and force land combat engagements. Direct fire weaponry is comparable to Ythotha T4 unit, while anti air suite consists of 2 single target beam weapons.
+							Unit is very slow and sluggish to move around, but has gargantuan amounts of armor, being capable of surviving a direct hit from a full-scale Nuke. On-board OMNI sensor will detect stealth units.</p><br>
+							<h4><img src="../images/TMLite/FeatureMissile.png">Special Feature - Manual-Fire Ion Storm Artillery</h4>
+							<p>Unit can charge and store 2 artillery shots. Each projectile will deal huge amounts of damage with pinpoint accuracy, and will create an Ion Storm if projectile does not impact into the shield dome.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Stock 2 shots of the artillery, then get into range of enemy base and double-tap: fire 2 shots back-to-back in the same spot. First shot will drop all shields (excluding T3 Aeon Hydrocarbon Shield) while the second will hit structures underneach, destroy them and create an Ion Storm that continues to deal damage.</li>
+								<li>Direct artillery hit will kill all but heavily upgraded ACUs. Try sniping enemy commanders.</li>
+								<li>Stay at artillery range and continue to bombard enemy bases with the artillery - no static defences outside of stationary Tactical Missile Launchers can reach this unit. Force them to come to you.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>If you have nukes built, you can spend 2 of them to kill this unit. Its slow moving speed makes it an easy target if you need to kill them this way.</li>
+								<li>Build your own super-heavy T4s, or a bunch of cheaper T4 units and intercept it before it can get within artillery range of your base.</li>
+								<li>Massed T3 gunship attacks will work to some degree, due to single-target AA weapons - it will take a while for gunships to get killed.</li>
+								<li>Direct fire weapons on this unit can only fire forwards - exploit this and flank it.</li>
+                            </ul><br>
+							<h3 id="W93SL4E2"><img src="../images/TMLite/W93SL4E2.png">Athusil - T4 Experimental Shield Bot</h3>
+                            <p>Defensive and economy support specialty unit. Provides shield coverage with more shield strengh and range than static T3 shielding, and generates large amounts of energy and mass. Has a compliment of direct fire and anti-air weaponry, but damage output is underwhelming for the cost.
+							 Unit is very volatile and will create a massive explosion if destroyed, or an Ion Storm if killed by reclaiming.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>This unit compensates for lack of RAS SACUs of the Seraphim. Build these for mobile economy.</li>
+								<li>Can be used offensively to shield T3 army or the T4 Ythotha experimentals and capitalize on the death nuke to damage enemy base.</li>
+								<li>Do not use these as base defense - if this unit gets destroyed in the middle of the base, death nuke will destroy most of it.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>If you see this unit coming towards your base, intercept it ASAP, death nuke is more dangerous than Ythotha's Ion Storm.</li>
+								<li>Unit has low HP for an experiemntal - once the shield is broken, it will die fairly quickly.</li>
+								<li>If there is one inside enemy base, try to snipe it with T3 Strategic Bombers - destoying it will kill both the base and the economy income from the unit.</li>
+								<li>Direct fire weapons on this unit can only fire forwards - exploit this and flank it.</li>
+                            </ul>
+                        </div>
+						
+						<h2>Seraphim - Sea</h2>
+                        <div id="SeraphimSea" class="card">
+							<h3 id="W93SS3SS"><img src="../images/TMLite/W93SS3SS.png">Ithi-Sioz - T3 Support Ship</h3>
+                            <p>Unarmed fleet support unit. Has a limited T3 Engineering Suite, with rather large construction range and build speed. Blueprints are limited to Mass Extractors and Hydrocarbon structures.
+							Secondary features are Radar, Sonar and Radar Jamming as well as reclaim and repair.</p><br>
+							<h4><img src="../images/TMLite/FeatureMissile.png">Special Feature - Strategic Missile Defense</h4>
+							<p>Unit can construct and fire standard anti-nuke missiles. Rate of construction is significantly lower than stationary Strategic Missile Defense, but can be assisted.
+							Unit can construct missiles and use engineering suite at the same time, effectively doubling the build rate.</p><br>
+							<h4><img src="../images/TMLite/FeatureRegenField.png">Special Feature - Restoration Field</h4>
+							<p>Unit projects an aura that will automatically repair units for free. Auras of multiple Support Ships do not stack.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Simply being present around your fleet will significantly improve its long term durability - Restoration Field will repair units in range quickly and at no cost. Priority units can additionally be manually repaired.</li>
+								<li>Unit is great at reclaiming wrecks - it has Health to stay under fire for some time, and regeneration will keep it from dying if used carefuly.</li>
+								<li>False radar blips can reduce enemy damage output if they do not have vision on your fleet.</li>
+								<li>Assist this ship with Engineers to produce SMD missiles quicker.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Focus fire these ships to kill them first and prevent regeneration fields from keeping enemy fleet repaired.</li>
+								<li>Scout with Spy Planes or T4 Atlantis experimental to counter the Jamming.</li>
+								<li>Anti-Nuke missiles are produced at a 20% rate of stationary SMDs - unless assisted, there are likely to be empty, so a nuke fired at the opponent will likely connect.</li>
+                            </ul>
+                        </div>
+						
+						<h2>UEF - Buildings</h2>
+                        <div id="UEFBuildings" class="card">
+							<h3 id="W93UB1NAV"><img src="../images/TMLite/W93UB1NAV.png"><img src="../images/TMLite/W93UB2NAV.png">T1 and T2 Anti-Navy Defense</h3>
+                            <p>Static defense, meant to keep enemy navy away from your shoreline. T1 version significantly outranges and outguns Frigates, while T2 version is competitive with Destroyers.
+							T2 version is also amphibious. These guns can only fire at surface ships, and cannot engage or be ordered to fire upon ground units. UEF T2 version has personal stealth as well.</p><br>
+							<h3 id="W93UB1PMS"><img src="../images/TMLite/W93UB1PMS.png">Overlook - T2 Perimeter Monitoring System</h3>
+                            <p>Cheap structure built on a Hydrocarbon deposit. Provides significant visual detection radius with no energy upkeep. Can be built underwater. Once you reach T2 tech and have your first
+							T2 Power Generator, reclaim your Hydrocarbon Power Plant and construct this building in its place. This building type is available to all factions, with no functional differences.</p><br>
+							<h3 id="W93UB2MX"><img src="../images/TMLite/W93UB2MX.png">Rocket Pad - T2 Mass Strongpoint</h3>
+                            <p>This is a frontline alternative to T2 Mass Extractor. Fairly expensive, it sacrifices 33% of T2 Mass Extractor income for significantly more Health and support/defensive capabilities.
+							Building can be capped with Mass Storage to increase its extraction rate, just as regular Mass Extractors. Highly recommended as a starting point for a firebase.</p>
+							<p>This buildings weapon is a long-range tactical missile launcher that automatically fires a 4 shot salvo of tactical missiles at targets in range for free. Missiles can be intercepted by TMD, and deal cumulatively much less damage than manually fired TML.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Build this structure in a forward outpost to deny enemies their mass points - this unit will automatically prioritize economy structures within range.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Try to destroy it before it's completed.</li>
+								<li>It requires at least 3 TMD structures to secure a mass extractor from its missiles.</li>
+                            </ul><br>
+							<h3 id="W93UB3AR"><img src="../images/TMLite/W93UB3AR.png">Big Jack - T3 Hydrocarbon Artillery Installation</h3>
+                            <p>This structure is a scaled down T3 static artillery. Can only be built on hydrocarbon deposits. Fairly accurate, with more range that static T2 Tactical Missile Launchers. Fire rate can be boosted by surrounding it with power generators.</p>
+                        </div>
+						
+						<h2>UEF - Air</h2>
+                        <div id="UEFAir" class="card">
+							<h3 id="W93UA1FB"><img src="../images/TMLite/W93UA1FB.png">Afterburner - T1 Fighter/Bomber</h3>
+                            <p>Fast, but expensive interceptor. Fires a flurry of missiles that can eliminate standard T1 Interceptors in a single volley, on a noticeable reload time. Secondary air-to-ground missiles are used to harass vulnerable 
+							ground targets like Engineers. Flight pattern prefers hit and run passes over dogfighting.</p><br>
+							<h3 id="W93UA2MB"><img src="../images/TMLite/W93UA2MB.png">Vortex - T2 Combat Fighter</h3>
+                            <p>Air to air fighter. Uses a medium range missile launcher to deal high upfront damage from extended range against enemy air units, then utilizes short range missiles once it closes in. Flight pattern prefers hit and run passes over dogfighting. Medium range projectiles are considered tactical and can be shot down by TMD.</p><br>
+							<h3 id="W93UA4E1"><img src="../images/TMLite/W93UA4E1.png">Imperium - T4 Experimental Torpedo Gunship</h3>
+                            <p>Dedicated anti-navy experimental. Main weapon is a torpedo launcher that fires a massive volley of torpedoes, complimented by a four direct fire plasma cannons and a sonar system. Moves rather slow, but has high amounts of armor.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Build this unit if you're losing a navy fight or need some extra firepower at the naval theatre.</li>
+								<li>While its main job is to kill ships, this unit is adequate at fighting land units as well.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Just as Soul Ripper, a large pack of T3 Air Superiority Fighters will kill it quickly.</li>
+								<li>Large group of Cybran T3 Strategic Interceptors can deal large amounts of damage to it, or even kill it outright with enough numbers, without closing the distance to possible enemy air escort.</li>
+								<li>Cybran T4 Anti Air experimental will quickly dispatch this unit.</li>
+                            </ul>
+                        </div>
+						
+						<h2>UEF - Land</h2>
+                        <div id="UEFLand" class="card">
+							<h3 id="W93UL1AT"><img src="../images/TMLite/W93UL1AT.png">Marmor - T1 Amphibious Tank</h3>
+                            <p>Simple raiding unit, capable of driving along the seabed to raid bases. Faster and cheaper than Striker, but less armored.</p><br>
+							<h3 id="W93UL1E1"><img src="../images/TMLite/W93UL1E1.png">UnderTaker - T1 Experimental Fortress</h3>
+                            <p>Slow artillery unit. Main weapon has the most range of any T1 land unit and can destroy any non-experimental T1 land unit in 1 hit. Secondary weapons consist of 4 direct fire turrets to fight off close targets.</p>
+							<h4>Upgrades</h4>
+							<ul>
+								<li><img src="../images/TMLite/UpgradeUEFShield.png"><b>Shield Dome Field</b> - Installs Shield Dome generator.</li><br>
+								<li><img src="../images/TMLite/UpgradeUEFRate.png"><b>Improved Reloaders</b> - Increases fire rate and range of secondary weapons.</li>
+                            </ul>
+							<h4>How to use</h4>
+							<ul>
+								<li>Bombard enemy ACU from afar to push it away. Don't let it close to Overcharge range.</li>
+								<li>Break T1 point defences and kill T2 point defences before they are completed.</li>
+								<li>With the Shield upgrade, use it to cover your T1 army or escort an ACU during assaults.</li>
+								
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Use T1 or T2 air units to kill it from the air.</li>
+								<li>Seraphim T1 experimental can stun it after closing the distance.</li>
+								<li>Rush it with your T1 army - its main gun can't be used up close.</li>
+								<li>Use your ACU to Overcharge it.</li>
+                            </ul><br>
+							<h3 id="W93UL2E1"><img src="../images/TMLite/W93UL2E1.png">Banshee - T2 Experimental Assault Bot</h3>
+                            <p>Close range brawler. Unit has high DPS output with its 4 gatling guns and considerable armor, but moves somewhat slow.</p>
+							<h4><img src="../images/TMLite/FeatureMissile.png">Special Feature - Ripple Missile Battery</h4>
+							<p>Unit can construct and store up to 20 short range missiles, that can then be fired very rapidly. By default unit will auto-fire its missiles, but this behaviour can be disabled by a toggle on the orders panel.</p>
+							<h4>Upgrades</h4>
+							<ul>
+								<li><img src="../images/TMLite/UpgradeUEFMissile.png"><b>Enhanced Missile Warheads</b> - Doubles damage output and increases damage radius of Ripple Missile Battery.</li><br>
+								<li><img src="../images/TMLite/UpgradeUEFOmni.png"><b>OMNI Sensor System</b> - Increases range of Ripple Missile Battery and adds an OMNI sensor.</li>
+                            </ul>
+							<h4>How to use</h4>
+							<ul>
+								<li>Disable the missile launcher while it constructs its missiles, then once the target is reached, re-enable it and issue an attack order to reset unit targeting and unleash a massive missile barrage.</li>
+								<li>This unit is best suited against regular T1 and T2 land armies - high DPS output combined with high armor will let it survive for some time and earn veterancy bonuses.</li>
+								<li>If you have missiles stocked up, you can try to snipe enemy ACU with the missile barrage. Install Enhanced Missile Warheads upgrade beforehand to increase your chances of scoring a kill.</li>
+								<li>If you suspect enemy Cybran to deploy their T2 experimental, install the OMNI upgrade to counter Cloak/Stealth systems.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Overcharge with the ACU, but be wary of the missile weapon!</li>
+								<li>Air strike with T2 gunships or Fighter/Bombers will do the trick.</li>
+								<li>This unit is fairly slow, you can try using extended range units such as Hoplites of Mongesee to kite it.</li>
+								<li>Build and deploy your own T2 land experimental.</li>
+								<li>Tech up to T3 and use land/air units to dispatch it.</li>
+                            </ul><br>
+							<h3 id="W93UL3AS"><img src="../images/TMLite/W93UL3AS.png">Iron Fist - T3 Artillery Support Bot</h3>
+                            <p>Medium range support unit. Main weapon is a pair of Gauss Cannons for shelling enemies form afar, backed up with two plasma guns for close range direct combat. Unit is equipped with a radar jammer, creating false radar blips if not inside visual detection range of the enemy.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Unit is particularly good at dealing with T3 Sniper Bots - gauss cannons are pinpoint accurate, even on the move. Combined with adequate armor and very thin armor on the sniper bots, it will make short work of them.</li>
+								<li>Build this unit instead of T3 Mobile Artillery if you don't need the latter's higher range - Iron Fist has more health and DPS for comparable mass cost.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Unit is noticeably weaker than heavy T3 units, such as Bricks, Percivals or Rhyolites, and will lose to them in direct combat.</li>
+                            </ul><br>
+							<h3 id="W93UL3PD"><img src="../images/TMLite/W93UL3PD.png">Air Grinder - T3 Mobile Missile Defense</h3>
+                            <p>Mobile TMD. Singificantly more effective than T2 projectile-based static missile defense. Can reliably intercept reinforced projectiles, such as 'Billy' tactical nukes.
+							Counters missile based units, such as T2 Mobile Missile Launchers, UEF Spearhead or Cybran Scarlet. Can also intercept anti-air tactical missiles from Cybran T3 Strategic Interceptors.</p>
+							<p>UEF version has active radar jamming.</p><br>
+							<h3 id="W93UL4E1"><img src="../images/TMLite/W93UL4E1.png">Blood Asp - T4 Experimental Heavy Bot</h3>
+                            <p>Ultimate close range brawler - unit boasts the highest direct fire damage output of all land units in the game, combined with decent armor, personal shield, as well as relatively high speed for such a big unit. Very expensive to build.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>This unit will obliterate any land combatants in its range, short of another superheavy T4 or larger group of lesser T4 - just walk it into enemy base and watch the fireworks.</li>
+								<li>Be wary of large air groups or artillery focused T4 units, as they can damage this unit considerably before it can enter its firing range.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Build a larger group of stock T4 direct fire experimentals, such as Megalith or Galactic Collossus, and overwhelm it with numbers.</li>
+								<li>Hades can deal with it at range using a teleport kiting technique.</li>
+								<li>A Nuke can instantlly destroy it if need be.</li>
+								<li>Focus fire it with large group of T3 gunships or Strategic Bombers before it can reach your base or ground forces.</li>
+                            </ul>
+                        </div>
+						
+						<h2>UEF - Sea</h2>
+                        <div id="UEFSea" class="card">
+							<h3 id="W93US1ART"><img src="../images/TMLite/W93US1ART.png">Polestar Class - T1 Artillery Ship</h3>
+                            <p>Long range shore bombardment vessel. Matches range with UEF and Seraphim Destroyers. Fairly expensive to build and slow. It's the only T1 naval unit that can
+							destroy T1 Anti-Navy defenses while remaining out of range.</p><br>
+							<h3 id="W93US2E1"><img src="../images/TMLite/W93US2E1.png">Meridian Class - T2 Experimental Battlecruiser</h3>
+                            <p>Generalist ship-of-the-line. Considerably stronger than regular UEF Destroyers. Main weapons are 4 Gauss Cannon batteries, with shorter ranged secondary guns.
+							Ship has a rapidly recharging personal shield on a long recharge delay - it will rapidly restore its shield when out of combat.</p>
+							<h4>Upgrades</h4>
+							<ul>
+								<li><img src="../images/TMLite/UpgradeUEFSpeed.png"><b>Upgraded Turbines</b> - Increases maximum speed and acceleration.</li><br>
+								<li><img src="../images/TMLite/UpgradeUEFOmni.png"><b>OMNI Sensor System</b> - Adds an OMNI sensor.</li>
+                            </ul>
+							<h4>How to use</h4>
+							<ul>
+								<li>Take advantage of shield recharge using hit and run tactics. Speed upgrade will help considerably.</li>
+								<li>With OMNI upgrade, this ship will counter Cybran stealth subs or mobile sonar stealth field.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Concentrate all firepower on this ship and won't let it get away.</li>
+								<li>T2 Torpedo Bombers can deal finishing blow once shielding is out - keep few around for this purpose.</li>
+                            </ul><br>
+							<h3 id="W93US3NT"><img src="../images/TMLite/W93US3NT.png">Stormwind - T3 Guided Torpedo</h3>
+                            <p>Expensive single-use suicide weapon. Detonates a naval nuclear warhead when it reaches its target, or when manually ordered to detonate by a button on the orders panel.
+							This unit is fast and agile, but extremely fragile and will be destroyed by most torpedo weaponry.</p>
+							<h4>How to use</h4>
+							<ul>
+								<li>Keep one in reserve to catch enemy ACUs and instantly destroy them if they get into water.</li>
+								<li>If you have a Cybran ally, request help from Mermaids to hide them from sonar.</li>
+								<li>Players tend to not build defences near their Naval Factories - sneak one Stormwind in and destroy T3 Naval HQ with all assisting Engineers in one strike.</li>
+                            </ul>
+							<h4>How to fight against</h4>
+							<ul>
+								<li>Place a few static torpedo defences around your Naval HQ.</li>
+								<li>Keep T2 Torpedo Bombers at the ready to intercept any spotted Stormwinds.</li>
+								<li>When enemy UEF player reaches T3 naval tech, scout thoroughly for Stormwinds.</li>
+								<li>Always keep torpedo equipped units in your naval forces to deny these units. Even a single destroyer is enough to kill it with a single torpedo salvo.</li>
+								<li>Don't enter water with your ACU if you suspect Stormwinds are around.</li>
+                            </ul>
+                        </div>
+			</section>
+		</article>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../rowey.js"></script>
+    </body>
+</html>
