@@ -1,5 +1,5 @@
 # Website stable release
-- Version 1.3
+- Version 1.4
 
 # About
 Defualt page is Home.html
